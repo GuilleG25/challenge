@@ -21,7 +21,7 @@ Enjoy!!
 
 ####Tools
 
-- Laravel-PHP
+- Laravel 5.8-PHP
 - LaravelMix-WebPack
 - Vuejs-Javascript
 - Css
