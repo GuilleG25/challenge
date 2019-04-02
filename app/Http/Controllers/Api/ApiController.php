@@ -38,7 +38,7 @@
                 ],
                 'time'  => [
                     'required',
-                    'regex:/(09|1[0-8]):00:00/',
+                    'regex:/(09|1[0-9]):00:00/',
                     'unique_custom:death_appointment,date,' . $request->get('date'),
                 ],
                 'name'  => 'required',
