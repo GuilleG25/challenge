@@ -208,7 +208,12 @@
                         })
                             .then(function (response) {
                                 hour.available = false
-                                sweetalert("Nice!", "You have scheduled an appointment to Dance with the Death", "success")
+                                sweetalert.fire(
+                                    'Great!',
+                                    'you have scheduled an appointment to dance with death!',
+                                    'success'
+                                )
+                            
                             })
                             .catch(function (errors) {
                                 if (errors.response.status == 400) {
